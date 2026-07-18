@@ -17,7 +17,7 @@ REMOVE_DUPLICATES = True
 FILL_NUMERIC_METHOD = "median"
 FILL_CATEGORICAL_METHOD = "mode"
 ENCODING_METHOD = "label"
-USE_SMOTE = True
+
 
 # Model
 MODEL_PATH = BASE_DIR / "src" / "models" / "xgboost_model.json"

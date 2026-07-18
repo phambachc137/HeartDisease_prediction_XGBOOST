@@ -7,9 +7,8 @@ from config import MODEL_PATH
 
 
 def load_model():
-    """
-    Load mô hình đã huấn luyện.
-    """
+
+#Load mô hình đã huấn luyện.
     model = XGBClassifier()
     model.load_model(MODEL_PATH)
     return model
