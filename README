@@ -1,0 +1,7 @@
+file heart.csv là file data gốc , còn Heart2 là sau khi AI số hóa lại 
+Ban đầu có dùng SMOTE nma không cần thiết tại dataset cân bằng mọe rồi, lười ko muốn fix
+muốn train lại:
+    b1: xóa models vs pycache đi 
+    b2: chạy file preprocessing (chủ yếu là chia dataset, rồi làm sạch )
+    b3: chạy file train ( nó sẽ spawn ra file model.js)
+    b4: thử nghiệm model thì chạy file prediction rồi nhập linh tinh vào xem nó đoán dc ko 
